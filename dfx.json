@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "promise_token": {
+      "main": "promise/token/main.mo",
+      "type": "motoko"
+    },
+    "promise_webpage": {
+      "main": "promise/webpage/main.mo",
+      "type": "motoko"
+    },
+    "promise_manager": {
+      "main": "promise/dao/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "--hide-warnings",
+      "packtool": "mops sources"
+    }
+  }
+}
